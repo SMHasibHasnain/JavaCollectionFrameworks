@@ -64,15 +64,15 @@ Shows how to display or access data in different ways.
 
 ## 💡 Key Concepts Demonstrated
 
-| Concept | Method(s) |
-|--------|-----------|
+| Concept          | Method(s)                                            |
+|------------------|------------------------------------------------------|
 | Create ArrayList | `new ArrayList<>()`, `List.of()`, `ensureCapacity()` |
-| Add Elements | `add()`, `addAll()`, `Collections.addAll()` |
-| Access Elements | `get()`, `indexOf()`, `lastIndexOf()`, `contains()` |
-| Update Elements | `set()` |
-| Remove Elements | `remove()`, `removeIf()`, `clear()`, `retainAll()` |
-| Iteration | `for-each`, `Iterator`, `ListIterator` |
-| Utility | `size()`, `isEmpty()` |
+| Add Elements     | `add()`, `addAll()`, `Collections.addAll()`          |
+| Access Elements  | `get()`, `indexOf()`, `lastIndexOf()`, `contains()`  |
+| Update Elements  | `set()`                                              |
+| Remove Elements  | `remove()`, `removeIf()`, `clear()`, `retainAll()`   |
+| Iteration        | `for-each`, `Iterator`, `ListIterator`               |
+| Utility          | `size()`, `isEmpty()`                                |
 
 ---
 
