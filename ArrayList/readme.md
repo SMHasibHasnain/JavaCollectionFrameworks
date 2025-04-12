@@ -70,6 +70,8 @@ Shows how to sort data in different ways.
 - `.sort()` - Easy Sort
 - `.sort(Collections.reverseOrder())` - Descending Order Sorting
 
+---
+
 ### 7. `Good To Know`
 - `trimToSize` - Reduce the capacity of a list to exactly the size of the list.
 
