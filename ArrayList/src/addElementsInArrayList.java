@@ -5,7 +5,7 @@ import java.util.List;
 
 public class addElementsInArrayList {
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
 
         //1. Adding data in default
         list.add("HA");
