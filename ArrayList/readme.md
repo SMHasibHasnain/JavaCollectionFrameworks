@@ -55,24 +55,36 @@ Illustrates how to get the index of elements.
 Shows how to display or access data in different ways.
 
 - `System.out.println(list)` – Direct printing
-- `list.contains(Object o)` – Check presence
-- `list.size()` – Number of elements
+- `.contains(Object o)` – Check presence
+- `.size()` – Number of elements
 - Enhanced `for-each` loop
 - `Iterator` and `ListIterator` for forward and backward iteration
 
----
+--- 
+
+### 6. ✅ `SortingInArrayList.java`
+Shows how to sort data in different ways.
+
+- `Collections.sort()` - Sorting ascending order using Collection class
+- `Collections.reverse()` - Reverse a sorted list to get in descendent order
+- `.sort()` - Easy Sort
+- `.sort(Collections.reverseOrder())` - Descending Order Sorting
+
+### 7. `Good To Know`
+- `trimToSize` - Reduce the capacity of a list to exactly the size of the list.
 
 ## 💡 Key Concepts Demonstrated
 
-| Concept          | Method(s)                                            |
-|------------------|------------------------------------------------------|
-| Create ArrayList | `new ArrayList<>()`, `List.of()`, `ensureCapacity()` |
-| Add Elements     | `add()`, `addAll()`, `Collections.addAll()`          |
-| Access Elements  | `get()`, `indexOf()`, `lastIndexOf()`, `contains()`  |
-| Update Elements  | `set()`                                              |
-| Remove Elements  | `remove()`, `removeIf()`, `clear()`, `retainAll()`   |
-| Iteration        | `for-each`, `Iterator`, `ListIterator`               |
-| Utility          | `size()`, `isEmpty()`                                |
+| Concept          | Method(s)                                                                                     |
+|------------------|-----------------------------------------------------------------------------------------------|
+| Create ArrayList | `new ArrayList<>()`, `List.of()`, `ensureCapacity()`                                          |
+| Add Elements     | `add()`, `addAll()`, `Collections.addAll()`                                                   |
+| Access Elements  | `get()`, `indexOf()`, `lastIndexOf()`, `contains()`                                           |
+| Update Elements  | `set()`                                                                                       |
+| Remove Elements  | `remove()`, `removeIf()`, `clear()`, `retainAll()`                                            |
+| Iteration        | `for-each`, `Iterator`, `ListIterator`                                                        |
+| Sorting          | `Collections.sort()`, `Collections.reverse()`, `.sort()`, `.sort(Collections.reverseOrder())` |
+| Utility          | `size()`, `isEmpty()`, `trimToSize()`                                                         |
 
 ---
 
